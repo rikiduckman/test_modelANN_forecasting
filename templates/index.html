@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction App</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Enter Data for Prediction</h1>
+        <form method="POST" class="mt-4">
+            <div class="row">
+                <!-- Gender -->
+                <div class="col-md-6 mb-3">
+                    <label for="Gender" class="form-label">Gender:</label>
+                    <select class="form-control" name="Gender" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <!-- Education -->
+                <div class="col-md-6 mb-3">
+                    <label for="Education" class="form-label">Education:</label>
+                    <select class="form-control" name="Education" required>
+                        <option value="Vocational">Vocational</option>
+                        <option value="High School">High School</option>
+                    </select>
+                </div>
+                <!-- Subject_1 -->
+                <div class="col-md-6 mb-3">
+                    <label for="Subject_1" class="form-label">Subject 1:</label>
+                    <select class="form-control" name="Subject_1" required>
+                        <option value="A">A</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                        <option value="C+">C+</option>
+                        <option value="C">C</option>
+                        <option value="D+">D+</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+                <!-- Subject_2 -->
+                <div class="col-md-6 mb-3">
+                    <label for="Subject_2" class="form-label">Subject 2:</label>
+                    <select class="form-control" name="Subject_2" required>
+                        <option value="A">A</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                        <option value="C+">C+</option>
+                        <option value="C">C</option>
+                        <option value="D+">D+</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+                <!-- Subject_3 -->
+                <div class="col-md-6 mb-3">
+                    <label for="Subject_3" class="form-label">Subject 3:</label>
+                    <select class="form-control" name="Subject_3" required>
+                        <option value="A">A</option>
+                        <option value="B+">B+</option>
+                        <option value="B">B</option>
+                        <option value="C+">C+</option>
+                        <option value="C">C</option>
+                        <option value="D+">D+</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+        </form>
+        {% if prediction %}
+            <div class="alert alert-info mt-4" role="alert">
+                <h4 class="alert-heading">Prediction:</h4>
+                <p>{{ prediction }}</p>
+            </div>
+        {% endif %}
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

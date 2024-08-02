@@ -1,0 +1,271 @@
+@relation data
+
+@attribute Gender {Male,Female}
+@attribute Education {'High School',Vocational}
+@attribute Subject_1 {B,C+,D,A,D+,C,B+}
+@attribute Subject_2 {C+,B,C,A,B+,D+,D}
+@attribute Subject_3 {C,B+,C+,A,B,D+,D}
+@attribute Label {CS,IT}
+
+@data
+Male,'High School',B,C+,C,CS
+Male,'High School',C+,B,B+,CS
+Male,'High School',D,C,C+,CS
+Male,'High School',A,A,A,CS
+Male,'High School',C+,B+,A,IT
+Male,Vocational,B,B+,B,CS
+Male,Vocational,C+,C+,C+,CS
+Male,'High School',C+,B,B,CS
+Male,Vocational,D,D+,B,CS
+Male,'High School',D+,D+,C,CS
+Male,'High School',D+,C+,D+,IT
+Male,'High School',C,D,D+,IT
+Female,'High School',B,B,C+,CS
+Female,'High School',D+,C,C+,IT
+Male,'High School',C,B,C,CS
+Male,'High School',C,A,B+,CS
+Male,'High School',D+,C,C,CS
+Male,Vocational,D,C,?,CS
+Male,'High School',C,C+,D,CS
+Female,'High School',D+,C,?,IT
+Male,'High School',B,B,B,CS
+Male,'High School',?,?,D,CS
+Male,'High School',C,C+,B,CS
+Female,'High School',C+,B+,D+,CS
+Female,Vocational,B,B,A,CS
+Female,'High School',?,C,B,IT
+Male,'High School',C,C+,B,CS
+Male,'High School',C+,C+,D,CS
+Female,'High School',A,B,C+,CS
+Female,'High School',B,A,B,CS
+Female,Vocational,D+,B,C+,IT
+Male,'High School',C,C+,D+,CS
+Male,'High School',C,C+,D+,CS
+Male,'High School',D,B,B+,CS
+Female,'High School',B,B+,C+,IT
+Female,Vocational,B+,B,B,CS
+Male,'High School',C,D,B+,IT
+Female,'High School',C,C,C,CS
+Male,'High School',B,D+,D,CS
+Male,'High School',A,D,B,IT
+Male,'High School',C+,B,D,CS
+Male,'High School',B+,B,C+,CS
+Male,'High School',?,C+,D+,CS
+Male,'High School',B,A,?,IT
+Male,'High School',B,B+,B,IT
+Female,'High School',B+,C,B+,CS
+Male,'High School',B+,A,C,CS
+Male,'High School',C+,B+,C,CS
+Female,'High School',B,B+,D,CS
+Female,'High School',C+,C,C+,CS
+Female,'High School',C+,B,D+,CS
+Male,Vocational,A,A,C+,CS
+Male,'High School',B,D,C,CS
+Male,'High School',D,C,B+,CS
+Female,'High School',B+,C+,C,CS
+Male,Vocational,B,D,D,CS
+Male,Vocational,D+,C+,D+,CS
+Male,'High School',C,B,B+,CS
+Male,'High School',C+,B+,?,IT
+Female,Vocational,C,C,?,IT
+Male,'High School',D,C,A,CS
+Male,'High School',A,A,D+,CS
+Male,'High School',C+,B,?,CS
+Male,'High School',B+,B,C,CS
+Male,'High School',C+,B+,?,CS
+Female,Vocational,B,C+,C+,CS
+Male,Vocational,D,D+,A,CS
+Female,'High School',C+,B+,A,CS
+Female,'High School',D,C,D+,CS
+Female,Vocational,B,A,C+,IT
+Female,'High School',A,B,B+,IT
+Female,Vocational,A,A,B,CS
+Female,'High School',D,D+,C,IT
+Male,'High School',D,B,C,CS
+Male,'High School',D+,C+,D,CS
+Male,'High School',D+,B,B,CS
+Male,'High School',C+,B,C,CS
+Male,'High School',A,B+,A,CS
+Male,'High School',A,A,C,CS
+Male,'High School',B,B,B,CS
+Female,'High School',B+,A,B+,CS
+Female,Vocational,C+,C+,?,IT
+Male,'High School',C,D,?,IT
+Male,'High School',B,C+,B+,CS
+Male,Vocational,D,?,C+,CS
+Female,Vocational,C,B,A,CS
+Female,'High School',?,B,C,CS
+Female,'High School',?,?,B,CS
+Male,'High School',C,C+,B,CS
+Male,'High School',C+,D+,B+,CS
+Female,'High School',D,B,C+,CS
+Male,'High School',C,D+,A,CS
+Female,'High School',B,D+,B,CS
+Female,'High School',D,D,?,CS
+Male,'High School',D,C+,?,CS
+Female,'High School',B,C,B,IT
+Female,'High School',C+,C,B,IT
+Female,'High School',D+,D,A,CS
+Male,'High School',B,C,A,CS
+Female,'High School',B+,C+,A,CS
+Female,'High School',D+,C,B,CS
+Female,Vocational,D,D+,C,CS
+Male,'High School',D,A,C+,CS
+Female,'High School',C+,D+,B,CS
+Male,'High School',?,?,?,CS
+Male,'High School',A,B+,C+,CS
+Male,'High School',C,C,D+,IT
+Male,'High School',A,A,B,CS
+Female,'High School',D,A,B+,IT
+Male,'High School',B+,B+,C,CS
+Male,Vocational,C+,B+,A,IT
+Male,'High School',C+,C,B,CS
+Female,'High School',C,D,D,IT
+Female,'High School',C,C+,B+,CS
+Female,'High School',B,B,D,CS
+Male,Vocational,A,B,B+,CS
+Male,'High School',C,D,?,CS
+Female,Vocational,C,C,C,CS
+Female,Vocational,A,B+,B+,CS
+Female,'High School',A,B+,C,CS
+Female,'High School',C,B,B+,CS
+Male,'High School',C+,A,B+,CS
+Female,Vocational,C,C+,A,IT
+Male,'High School',B,D,A,CS
+Male,'High School',C,D,C,IT
+Male,'High School',A,A,B,CS
+Male,'High School',C+,A,B,CS
+Male,Vocational,D,C,A,CS
+Male,'High School',B+,B+,?,IT
+Male,'High School',D+,B,B+,CS
+Male,'High School',B,B,A,CS
+Male,'High School',D+,C+,C+,CS
+Male,'High School',C,D+,?,CS
+Male,'High School',D,B,A,CS
+Female,Vocational,A,C,?,IT
+Male,Vocational,B,C+,B+,CS
+Male,'High School',A,B+,B,CS
+Male,'High School',C,B+,?,IT
+Female,'High School',C+,D,B,CS
+Male,Vocational,C,?,D,CS
+Male,Vocational,D+,C,C,CS
+Male,'High School',C,C,D+,CS
+Male,'High School',B,C+,A,CS
+Female,'High School',C+,B,B,CS
+Male,'High School',C+,B+,A,CS
+Male,Vocational,D+,B+,B,CS
+Female,Vocational,A,A,B,IT
+Male,'High School',C,D+,B,CS
+Female,'High School',C,B,?,IT
+Male,'High School',?,?,D,CS
+Male,'High School',C,B,?,CS
+Male,Vocational,D,D,B,CS
+Male,'High School',B,B,C,IT
+Male,Vocational,?,A,D+,CS
+Female,'High School',B,C+,A,CS
+Male,'High School',A,A,?,CS
+Male,'High School',C,B+,B,CS
+Male,Vocational,C+,B,B,CS
+Female,'High School',B,C,C+,IT
+Female,'High School',A,A,D+,IT
+Male,'High School',A,A,A,CS
+Male,'High School',B,C+,C+,CS
+Male,'High School',A,B,B+,CS
+Female,'High School',C+,B,D+,CS
+Male,'High School',B,D+,C,CS
+Male,'High School',B,A,A,CS
+Female,'High School',B+,C+,C,IT
+Male,'High School',C+,D+,B,CS
+Male,Vocational,C+,A,B,CS
+Male,'High School',C+,B,?,CS
+Male,'High School',C+,B+,C,CS
+Female,Vocational,D+,C+,C,CS
+Male,'High School',A,B+,B,CS
+Male,'High School',B+,B,A,CS
+Male,'High School',C,B,B+,CS
+Male,'High School',D+,D+,C,CS
+Male,'High School',?,?,?,CS
+Male,'High School',A,D+,A,IT
+Male,'High School',C,C,C,CS
+Male,'High School',?,D+,?,CS
+Male,'High School',C,D+,?,IT
+Male,'High School',?,A,D,CS
+Female,'High School',C+,?,C+,CS
+Male,'High School',B+,B+,B,CS
+Male,'High School',?,?,?,CS
+Female,'High School',B+,B+,C,CS
+Male,'High School',A,B+,C+,CS
+Male,'High School',B,C+,C+,CS
+Male,'High School',D,D,?,CS
+Male,'High School',C,C+,B+,CS
+Male,'High School',B+,C+,D+,CS
+Male,'High School',D+,C,A,CS
+Male,'High School',C,C,B,CS
+Male,'High School',A,D,C,CS
+Female,Vocational,C,A,?,IT
+Male,'High School',B,B,C,CS
+Male,'High School',C+,B,B,IT
+Male,'High School',B+,C,B,CS
+Male,'High School',A,B+,D+,CS
+Male,'High School',B,A,?,CS
+Female,'High School',A,B,C,CS
+Male,'High School',B+,B+,A,CS
+Male,'High School',B+,?,B+,IT
+Male,'High School',D+,?,C+,IT
+Female,'High School',C+,B,C+,CS
+Male,'High School',C+,C,B,CS
+Male,'High School',C,C,C,CS
+Female,'High School',C,D+,D+,IT
+Male,'High School',B+,C+,B,CS
+Female,'High School',B+,D+,C,CS
+Female,Vocational,B,C+,C+,CS
+Female,'High School',B,C,C,CS
+Male,'High School',B,D+,A,CS
+Female,'High School',C+,C,D+,CS
+Female,'High School',D+,D,C,CS
+Female,Vocational,C,B,?,IT
+Male,'High School',B+,A,C,IT
+Male,'High School',C+,B,C,CS
+Male,'High School',A,B+,A,CS
+Female,'High School',C,C+,C,IT
+Female,'High School',A,C,B,CS
+Male,Vocational,B,A,B,CS
+Female,Vocational,B+,A,B,CS
+Female,'High School',C+,B+,?,CS
+Male,'High School',C,C,B,IT
+Male,'High School',D,D,?,CS
+Male,'High School',D,C+,A,CS
+Male,Vocational,D+,C,D,IT
+Male,Vocational,B,B,C,CS
+Male,'High School',A,B+,D,CS
+Female,'High School',D,C+,B,CS
+Male,Vocational,B+,C,?,CS
+Male,'High School',B,A,C,CS
+Female,'High School',B,C,C,CS
+Male,Vocational,C,C+,B,CS
+Female,'High School',C+,C,B,IT
+Female,'High School',B+,C,C,CS
+Male,'High School',C+,B+,A,CS
+Male,'High School',B,C+,C+,CS
+Male,'High School',D+,B+,D+,CS
+Male,Vocational,C+,D+,A,CS
+Male,'High School',B,C+,B+,CS
+Female,'High School',B+,D+,D,CS
+Male,'High School',C+,B,B,CS
+Female,Vocational,B,B+,?,CS
+Female,'High School',C+,B,C,CS
+Female,Vocational,D,D,C+,CS
+Male,Vocational,A,C,C+,IT
+Female,'High School',C+,C+,B+,IT
+Male,Vocational,A,B,C,CS
+Male,'High School',D+,D+,?,CS
+Female,'High School',D,B+,?,CS
+Male,Vocational,C+,C+,D,CS
+Male,'High School',B+,B+,C+,CS
+Male,'High School',B,A,B,CS
+Female,'High School',C,D,?,CS
+Female,'High School',A,B+,C+,CS
+Male,'High School',C,C+,D+,CS
+Male,'High School',C,D+,C,CS
+Male,Vocational,A,A,D+,CS
+Male,'High School',D+,D,?,CS
